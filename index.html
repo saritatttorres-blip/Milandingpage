@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV - Sara Milena Torres Thomas</title>
+  <style>
+    *{box-sizing:border-box; margin:0; padding:0}
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background:#fff;
+      color:#222;
+      line-height:1.6;
+    }
+    .cv{
+      display:grid;
+      grid-template-columns:260px 1fr;
+      min-height:100vh;
+    }
+    aside{
+      background:#f7f7f7;
+      padding:24px;
+      border-right:1px solid #ddd;
+    }
+    .foto{
+      width:140px; height:140px; border-radius:50%;
+      display:block; margin:0 auto 16px;
+      border:2px solid #ccc; object-fit:cover;
+    }
+    h1{text-align:center; font-size:1.4rem; margin-bottom:4px}
+    .rol{text-align:center; font-size:.9rem; color:#555; margin-bottom:16px}
+    .info{font-size:.9rem; margin-bottom:20px}
+    .info div{margin-bottom:6px}
+    .info a{color:#000; text-decoration:none}
+    .chip{
+      display:inline-block; padding:4px 8px; font-size:.8rem;
+      border:1px solid #aaa; border-radius:12px;
+      margin:4px 4px 0 0; color:#333;
+    }
+    .boton{
+      display:block; text-align:center; text-decoration:none;
+      border:1px solid #000; padding:8px; border-radius:6px;
+      font-weight:bold; margin-top:16px; color:#000;
+    }
+    main{padding:28px}
+    section{margin-bottom:28px}
+    h2{font-size:1.1rem; border-bottom:1px solid #ddd; padding-bottom:6px; margin-bottom:12px}
+    .lista{list-style:none; padding:0; margin:0}
+    .item{padding:8px; border:1px solid #eee; border-radius:6px; margin-bottom:8px; background:#fafafa}
+    .etq{font-weight:600}
+    .sub{font-size:.85rem; color:#555}
+    .grid-2{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+    footer{text-align:center; font-size:.8rem; color:#666; margin-top:20px}
+    @media(max-width:760px){
+      .cv{grid-template-columns:1fr}
+      aside{border-right:none; border-bottom:1px solid #ddd; text-align:center}
+      .grid-2{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <aside>
+      <img src="sara.jpg" alt="Foto de Sara Milena Torres" class="foto">
+      <h1>Sara Milena Torres Thomas</h1>
+      <p class="rol">Estudiante · Técnica en Asistencia Administrativa</p>
+
+      <div class="info">
+        <div>📧 <a href="mailto:starsimiltorres@gmail.com">starsimiltorres@gmail.com</a></div>
+        <div>📱 <a href="https://wa.me/573102984169" target="_blank" rel="noopener">+57 3102984169</a></div>
+        <div>🌐 <a href="https://github.com/TU_USUARIO" target="_blank" rel="noopener">GitHub</a></div>
+      </div>
+
+      <div>
+        <span class="chip">Manejo de documentos</span>
+        <span class="chip">Organización de oficinas</span>
+        <span class="chip">Trabajo en equipo</span>
+        <span class="chip">Comunicación asertiva</span>
+      </div>
+
+      <a class="boton" href="mailto:starsimiltorres@gmail.com">Contactar</a>
+    </aside>
+
+    <main>
+      <section>
+        <h2>Sobre mí</h2>
+        <p>
+          Estoy por terminar mi bachillerato y mi técnica en Asistencia Administrativa.
+          Tengo habilidades en organización de oficinas y manejo de documentos.
+          Soy proactiva y con ganas de aplicar mis conocimientos para crecer profesionalmente.
+        </p>
+      </section>
+
+      <section>
+        <h2>Estudios</h2>
+        <ul class="lista grid-2">
+          <li class="item">
+            <span class="etq">Bachillerato Académico</span>
+            <span class="sub">En curso · Finalización 2025</span>
+          </li>
+          <li class="item">
+            <span class="etq">Técnica en Asistencia Administrativa · SENA</span>
+            <span class="sub">En curso · Finalización 2025</span>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Habilidades</h2>
+        <ul class="lista grid-2">
+          <li class="item">Manejo de documentos</li>
+          <li class="item">Organización de oficinas</li>
+          <li class="item">Redacción básica</li>
+          <li class="item">Atención administrativa</li>
+          <li class="item">Proactividad</li>
+          <li class="item">Aprendizaje rápido</li>
+        </ul>
+      </section>
+
+      <footer>© 2025 · Sara Milena Torres Thomas</footer>
+    </main>
+  </div>
+</body>
+</html>
